@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+.stats-card {
+  @apply flex flex-col xl:gap-1;
+}
+.stats-h1 {
+  @apply text-lg font-bold text-main-heading-stats min-[390px]:text-2xl min-[412px]:text-2xl md:text-lg xl:text-3xl 2xl:text-4xl;
+}
+.stats-p {
+  @apply font-Lexend_Deca font-normal text-[10px] text-stat-headings uppercase tracking-wider min-[390px]:text-sm md:text-[8px] xl:text-xs 2xl:text-lg;
+}
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@700&display=swap");

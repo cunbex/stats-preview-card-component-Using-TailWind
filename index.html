@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/output.css">
+  <title>stats-preview-card-component-main</title>
+</head>
+
+<body
+  class="bg-main-bg px-6 pt-12 min-[360px]:px-12 min-[375px]:px-14 min-[375px]:pt-8 min-[390px]:pt-16 min-[390px]:px-8 min-[412px]:pt-10 min-[540px]:py-10 min-[540px]:px-16 md:flex flex-col justify-center h-[100vh] lg:px-28">
+  <main class="rounded-md overflow-hidden md:flex flex-row">
+    <div class="bg-purple-900 md:order-2 md:w-6/12">
+      <picture class="opacity-50 contrast-125">
+        <source media="(min-width: 768px)" srcset="./images/image-header-desktop.jpg" />
+        <img class="w-full" src="./images/image-header-mobile.jpg" alt="people in office" />
+      </picture>
+    </div>
+
+    <div
+      class="bg-card-background py-8 px-4 text-center flex flex-col gap-4 min-[390px]:gap-8 md:w-6/12 order-1 md:text-left md:px-10 md:py-8 lg:pt-14 lg:px-16 lg:gap-8 xl:pt-20 xl:gap-16 2xl:pl-24 2xl:pt-20 2xl:gap-28">
+      <div
+        class="flex flex-col gap-4 min-[360px]:px-4 min-[390px]:px-8 min-[412px]:px-4 min-[540px]:px-10 md:p-0 lg:gap-3 xl:pr-12 xl:gap-6 2xl:pr-24 2xl:gap-10">
+        <h1
+          class="font-Lexend_Deca text-xl font-bold text-main-heading-stats min-[390px]:text-2xl min-[412px]:text-3xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+          Get <span class="text-accent">insights</span>
+          that help your
+          business grow.
+        </h1>
+        <p
+          class="font-Inter text-xs text-main-paragraph min-[390px]:text-sm min-[412px]:text-lg md:text-[10px] md:leading-4 lg:text-xs lg:leading-5 xl:text-base 2xl:text-xl">
+          Discover
+          the benefits
+          of data analytics
+          and make better
+          decisions regarding revenue
+          customer
+          experience, and
+          overall efficiency.</p>
+      </div>
+      <div class="flex flex-col gap-4 md:flex-row lg:gap-10 2xl:gap-16">
+        <div class="stats-card">
+          <h1 class="stats-h1">10k+</h1>
+          <p class="stats-p">companies</p>
+        </div>
+        <div class="stats-card">
+          <h1 class="stats-h1">314</h1>
+          <p class="stats-p">templates</p>
+        </div>
+        <div class="stats-card">
+          <h1 class="stats-h1 uppercase">12m+</h1>
+          <p class="stats-p">queries</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
